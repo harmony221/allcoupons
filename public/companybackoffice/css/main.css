@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'quicksand';
+  src: url('../fonts/quicksand.otf'); /* IE9 Compat Modes */
+}
+*{
+	font-family: 'quicksand';
+}
+#ajax-loader{
+	position: fixed;
+	left: 50%;
+	top: 150px;
+	display: none;
+	z-index: 9999;
+}
+.admin-main-menu{
+	list-style: none;
+	padding: 0;
+	color: gray;
+}
+.admin-main-menu-general{
+	padding: 15px;
+	background: #f0f0f0;
+	text-indent: 15px;
+	cursor: pointer;
+	transition: background .2s;
+	padding-right: 0;
+}
+.admin-main-menu-general:hover{
+	background:#dfdfdf;
+}
+.acitve-admin-menu-item{
+	background:#dfdfdf;
+	box-shadow: 0px 1px 8px #cfcfcf inset;
+	color:#333;
+}
+.fa{
+	margin-right: 10px;
+}
+
+.admin-submenu{
+	list-style: none;
+	display: none;
+	padding-top: 15px;
+}
+.admin-submenu li{
+	padding: 5px  0px;
+	margin: 5px  0px;
+	transition: background .2s;
+}
+.admin-submenu li:hover{
+	background: #f0f0f0;
+}
+
+.admin-submenu-active{
+	background: #f0f0f0;
+}
+.listing-table tr td,th{
+	padding:8px;
+	border: 1px solid #cfcfcf;
+}
+
+.listing-table tr:nth-child(even){
+	background: #f0f0f0;
+}
+
+.listing-table{
+	border:1px solid #eee;
+}
+
+.coupon-create-form{
+	width: 50%;
+	padding:25px;
+}
+
+.coupon-create-form input,textarea,select{
+	margin-bottom: 15px;
+}
+
+#response-information{
+	padding: 10px;
+	border: 1px solid #f0f0f0;
+	background: #f9f9f9;
+	display: none;
+
+}

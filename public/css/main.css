@@ -1,0 +1,361 @@
+body{
+	font-family: arial;
+}
+/*
+-------menu
+*/
+.fa{
+	margin-right: 25px;
+}
+.top-menu{
+	padding: 0px 10px;
+}
+.top-menu .fa{
+	margin-right: 2px;
+}
+.menu-signin{
+	margin-right: 10px;
+}
+.main-menu{
+	list-style: none;
+	background: #333;
+}
+.main-menu a:link{
+	color: white;
+	text-decoration: none;
+}
+.main-menu a:active{
+	color: white;
+	text-decoration: none;
+}
+.main-menu a:visited{
+	color: white;
+	text-decoration: none;
+}
+.main-menu>li{
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px;
+	transition:background .4s;
+	position: relative;
+	color: white;
+	font-weight: bold;
+}
+.main-menu>li:hover{
+	background: #333;
+}
+.fa {
+	margin-right: 5px;
+}
+.coupons-submenu{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	box-shadow: 1px 1px 5px gray;
+	width: 700px;
+	background: white;
+	padding: 0;
+	z-index: 999;
+	color : black;
+}
+.coupons-submenu-items{
+	list-style: none;
+	padding: 0;
+}
+.coupons-submenu-items li{
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #f0f0f0;
+}
+
+/*
+-------registration
+*/
+.registration-form{
+	width: 40%;
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 5px #cfcfcf;
+	border-radius: 15px;
+}
+.registration-form input , select {
+	margin-bottom: 10px;
+}
+
+.facebook-login{
+	display: block;
+	background: #3b5998;
+	color : white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	transition: background .4s;
+
+}
+.facebook-login:hover{
+	color:white;
+	background: #5974a9;
+}
+.google-login{
+	display: block;
+	background: #dd4b39;
+	color : white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: background .4s;
+
+}
+.google-login:hover{
+	color:white;
+	background: #df7264;
+}
+.registration-form a:link{
+	color:white;
+	text-decoration: none
+}
+.registration-form a:visited{
+	color:white;
+	text-decoration: none
+}
+.registration-form a:active{
+	color:white;
+	text-decoration: none
+}
+.validation-errors{
+	background: #ffa195;
+	border-radius: 3px;
+	list-style: none;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+/*homepage coupons*/
+.homepage-coupons-listing{
+	padding: 30px;
+	text-align: center;
+}
+.homepage-single-coupon{
+	width: 250px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid #cfcfcf;
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	transition: box-shadow .4s;
+}
+.homepage-single-coupon:hover{
+	box-shadow: 1px 1px 5px #c3c2c1 , -1px -1px 5px #c3c2c1;
+}
+.homepage-single-coupon-header{
+	padding: 8px;
+	height: 110px;
+	text-align: left;
+	overflow: hidden;
+}
+.homepage-single-coupon-image{
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.homepage-single-coupon-price{
+	padding: 10px;
+	background: #49a2f4;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.homepage-single-coupon-sale-percent{
+	position: absolute;
+	top:-10px;
+	right:-25px;
+	z-index: 99;
+	background: #f44949;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.homepage-single-coupon-view-more .btn{
+	width: 100%;
+	border-radius: 0px;
+}
+
+
+/*
+		SALE SINGLE PAGE
+*/
+
+.sale-single-view{
+	border : 1px solid #f0f0f0;
+}
+.single-sale-image img{
+	width: 100%;
+}
+.buy-button{
+	font-size: 20px;
+	padding: 5px 60px;
+	font-weight: bold;
+}
+.sale-expiration-date , .sale-order-count{
+	box-shadow: 1px 1px 8px #f0f0f0 , -1px -1px 8px #f0f0f0;
+	text-align: center;
+	padding: 8px;
+	margin-bottom: 20px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.single-sale-image{
+	position: relative;
+}
+.single-sale-percent{
+	position: absolute;
+	top:-10px;
+	left:-15px;
+	z-index: 99;
+	background: #f44949;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.sale-company-mini-view{
+	border : 1px solid #f0f0f0;
+	border-left: none;
+}
+.sale-company-mini-image img{
+	width : 100%;
+	border: 1px solid #cfcfcf;
+}
+.sale-company-mini-image{
+	margin-bottom: 15px;
+}
+.single-sale-discription{
+	padding: 30px;
+}
+.single-coupon-buy{
+	width: 150px;
+	margin-top: 20px;
+}
+.share-buttons-set{
+	box-shadow: 1px 1px 8px #f0f0f0 , -1px -1px 8px #f0f0f0;
+	text-align: center;
+	padding: 8px;
+	margin-top: 20px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.single-sale-price{
+	box-shadow: 1px 1px 8px #f0f0f0 , -1px -1px 8px #f0f0f0;
+	text-align: center;
+	padding: 8px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.single-sale-price h2{
+	margin: 3px;
+}
+
+.modal-body img{
+	opacity: .4;
+	transition : opacity .4s;
+}
+.modal-body img:hover{
+	opacity: 1;
+}
+/*
+			user profile
+*/
+.user-profile-coupons{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0px;
+}
+.user-profile-coupons>li{
+	display:  inline-block;
+	padding: 8px;
+	margin: 0px;
+	font-size: 15px;
+	border: 1px solid #f0f0f0;
+	transition: background .4s;
+	cursor: pointer;
+	background: rgb(255, 255, 255);
+	margin-right: -4px;
+}
+.user-profile-loader{
+	position: absolute;
+	left: 40%;
+	top: 200px;
+	display: none;
+	text-align: right;
+}
+
+.user-coupon-info {
+	padding: 0px;
+	width: 85%;
+	height: 150px;
+}
+.user-coupon-image{
+	width: 15%;
+	padding:0px;
+}
+
+.user-coupon-image img{
+	width: 100%;
+}
+
+.user-coupon-wrapper{
+	width: 100%;
+	box-shadow: 1px 1px 5px #cfcfcf;
+	margin-bottom: 15px;
+	position: relative;
+	height: 150px;
+	left: 17px;
+	z-index: -999;
+}
+.user-coupon-name , .user-coupon-address{
+	padding: 5px 18px;
+}
+.user-coupon-date{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: white;
+	padding: 4px;
+	text-shadow : 1px 1px 2px black;
+	border-top-left-radius: 10px;
+	font-size: 12px;
+}
+.user-coupon-code{
+	text-align: center;
+}
+.user-coupon-code span{
+	border: 1px dashed #cfcfcf;
+	padding: 5px;
+}
+.user-profile-coupons-info{
+	margin-top: -1px;
+	border: 1px solid #cfcfcf;
+	position: relative;
+	z-index: -1;
+	padding: 20px;
+}
